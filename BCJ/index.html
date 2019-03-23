@@ -534,9 +534,9 @@
   <!-- activites/quick posts   -->
   <section>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row ">
         <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
-          <div class="row">
+          <div class="row align-items-center mb-5">
             <div class="col-xl-7">
               <h4 class="text-muted mb-4">Recent customer Activites</h4>
               <div id="accordion">
@@ -544,7 +544,7 @@
                   <div class="card-header"><button class="btn btn-block btn-secondary text-light text-left" data-toggle="collapse" data-target="#collapseOne" ><img src="images/cust1.jpeg" alt="cust 1" width="50px" class="mr-3 rounded">
                   John posted a comment</button></div>
                 </div>
-                <div class="collapse" id="collapseOne" data-parent="#accordion">
+                <div class="collapse show" id="collapseOne" data-parent="#accordion">
                   <div class="card-body">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eum veritatis praesentium molestiae minima optio debitis maiores totam, quo blanditiis, ad ipsam reiciendis perferendis expedita eos a! Voluptatem, ad tenetur.
                   </div>
@@ -596,7 +596,42 @@
                 </div>
               </div>
             </div>
-            <div class="col-xl-5">
+            <div class="col-xl-5 mt-3">
+              <div class="card rounded px-3">
+                <h5 class="text-muted text-center mt-5">Quick Post</h5>
+                <ul class="list-inline text-center py-3">
+                  <li class="list-inline-item mr-4">
+                    <a href="#"><i class="fas fa-pencil-alt text-success"></i></a>
+                    <span class="h6 text-muted">Status</span>
+                  </li>
+                  <li class="list-inline-item mr-4">
+                    <a href="#"><i class="fas fa-camera text-info"></i></a>
+                    <span class="h6 text-muted">Photo</span>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fas fa-map-marker-alt text-primary"></i></a>
+                    <span class="h6 text-muted ">Check-in</span>
+                  </li>
+                </ul>
+                <form >
+                  <div class="form-group ">
+                    <input type="text " placeholder="What is your status...." class="form-control py-2 mb-3">
+                    <button class="btn btn-info btn-block font-weight-bold text-light text-uppercase py-2 mb-5">submit post</button>
+                  </div>
+                </form>
+                <div class="row mb-4">
+                  <div class="col-6">
+                    <div class="card bg-light "><i class="far fa-calendar-alt fa-8x text-warning d-block m-auto py-3 "></i>
+                    <div class="card-body text-uppercase text-center" > mon may 2018</div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="card bg-light "><i class="far fa-clock fa-8x text-danger d-block m-auto py-3 "></i>
+                    <div class="card-body text-uppercase text-center" >3:50 am</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             </div>
           </div>
@@ -605,6 +640,31 @@
     </div>
   </section>
   <!--   end activites/quick posts -->
+  <!-- Fotter -->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+          <div class="row">
+            <div class="col-lg-6 text-center">
+              <ul class="list-inline">
+                <li class="list-inline-item mr-2"><a href="#" class="text-dark">4i1hu</a></li>
+                <li class="list-inline-item mr-2"><a href="#" class="text-dark">About</a></li>
+                <li class="list-inline-item mr-2"><a href="#" class="text-dark">Support</a></li>
+                <li class="list-inline-item mr-2"><a href="#" class="text-dark">Blog</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-6 text-center">
+              <p>&copy; 2019 copyright. Made with <i class="fas fa-heart text-danger"></i> by <span class="p-2 badge badge-success font-weight-bold">Rithesh</span>
+              under Guidence of <span class="text-warning">Code & Create</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Fotter -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
